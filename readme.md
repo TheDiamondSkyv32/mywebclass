@@ -71,7 +71,7 @@ respective GitHub repos into Canvas.
 7. The person that forks needs to change the [docker-compose.yml](docker-compose.yml) file line 5 with their docker repo
 8. Check the actions tab to make sure that it goes green, so that the image is published to the person that fork's
    Docker repo. If no actions have run do a edit on the readme and commit it and then that will trigger the publishing
-   GitHub actions workflow.
+   GitHub actions workflow. Making an edit for workflow.
 9. Once there is a green check both partners should clone the forked repo.
 10. Once you have it cloned Run "docker ps" to see any running containers and kill any running processes before you
     start this. You do this by typing: docker kill <container id>
